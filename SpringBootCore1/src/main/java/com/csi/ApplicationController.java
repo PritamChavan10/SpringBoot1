@@ -23,5 +23,10 @@ public class ApplicationController {
         return "Say bye to me";
     }
 
+    @GetMapping("/bro")
+    public String heyBro(){
+        return "Hello Bro";
+    }
+
 
 }
