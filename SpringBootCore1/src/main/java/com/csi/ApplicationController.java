@@ -28,5 +28,9 @@ public class ApplicationController {
         return "Hello Bro";
     }
 
+    @GetMapping("/messi")
+    public String messi(){
+        return "Loe messi the goat";
+    }
 
 }
